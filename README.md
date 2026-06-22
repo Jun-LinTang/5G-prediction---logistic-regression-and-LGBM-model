@@ -25,6 +25,8 @@ A machine learning project for predicting 5G user adoption using logistic regres
 | Missing values | None |
 | Memory footprint | ~366 MB |
 
+> 📥 **Download `train.csv`:** The dataset file is too large for GitHub. Download it from [QuarkCloud](https://pan.quark.cn/s/54c8f46ccfb2).
+
 ## 🎯 Objective
 
 Predict which users are likely to adopt 5G services based on anonymized categorical and numerical features. This is a **binary classification** problem with **extreme class imbalance**.
@@ -112,7 +114,7 @@ The most rigorously engineered version, built on lessons learned from Batter.
 |-------|-----|---------------|-----------|--------|-----|
 | Baseline LightGBM (58 features) | 0.9128 | 0.1448 | 0.2742 | 0.0053 | 0.0105 |
 | **final Version (125 features)** | **0.9166** | **0.1668** | **0.4107** | **0.0072** | **0.0142** |
-| CC Top-50 features | ~0.916 | — | — | — | — |
+| Final Top-50 features | ~0.916 | — | — | — | — |
 
 **5-Fold Cross-Validation:**
 - Mean AUC: **0.9153**
