@@ -1,0 +1,16 @@
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Model files (large)
+*.pkl
+
+# Large data files
+train.csv
+
+# IDE
+.vscode/
+.idea/
